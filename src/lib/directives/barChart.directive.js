@@ -33,7 +33,9 @@
         var OPTION_KEYS = [
             'data', 'xkey', 'ykeys', 'labels', 'barColors', 'stacked', 'hideHover',
             'hoverCallback', 'axes', 'grid', 'gridTextColor', 'gridTextSize', 'gridTextFamily',
-            'gridTextWeight', 'resize'
+            'gridTextWeight', 'resize',
+            // In spite of being missing in the documentation, these do exist and work
+            'xLabelAngle', 'yLabelFormat', 'preUnits', 'hideHover'
         ];
 
         return {
